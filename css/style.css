@@ -309,7 +309,7 @@ main .mainright {
   font-weight: 400;
   font-size: 16px;
   line-height: 19px;
-  list-style: url(/image/Vector.png);
+  list-style: url(/FoodXd/image/Vector.png);
 }
 
 .content .bottom .bottom-left .btn {
@@ -328,7 +328,7 @@ main .mainright {
 }
 
 .new-ad {
-  background-image: url(/image/7.png);
+  background-image: url(/FoodXd/image/7.png);
   background-size: cover;
 }
 
