@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400&family=Poppins:wght@100;200;300;400;500;600;800;900&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $f1;
+    background-color: $white;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: $primary;
+    transition: 0.5s;
+
+    &:hover {
+        color: $black;
+    }
+}
+
+.btn {
+    background-color: $primary;
+    color: $white;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid $primary;
+    transition: 0.5s;
+
+    &:hover {
+        color: $primary;
+        background-color: $white;
+        border: 1px solid $primary;
+
+    }
+}
+
+i {
+    margin-left: 8px;
+}
+
